@@ -1,0 +1,8 @@
+{
+  "cmake.configureOnOpen": false,
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "cmath": "cpp",
+    "*.tcc": "cpp"
+  }
+}
