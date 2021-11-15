@@ -13,8 +13,9 @@
 sem_t room;         // Counting Semaphore - 4 instances of resource chair
 sem_t chopstick[5]; // 5 chopsticks on the table
 
-void *philosopher(void *);
+void *philosopher(void *num);
 void eat(int);
+
 int main()
 {
   int i, a[5];
