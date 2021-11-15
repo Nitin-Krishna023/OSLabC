@@ -8,8 +8,10 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"-lpthread",
+				"-Wall",
+				"-std=c17",
 				"${file}",
+				"-lpthread",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
